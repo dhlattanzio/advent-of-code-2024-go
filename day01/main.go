@@ -62,7 +62,7 @@ func part2(data string) int {
 }
 
 func main() {
-	fmt.Println("--Day 01--")
+	fmt.Println("Day 01")
 
 	file, err := os.ReadFile("input.txt")
 	if err != nil {
